@@ -1,0 +1,56 @@
+
+div#container
+	{float: center; margin-top: 40px; margin-right: auto; margin-left: auto;  padding: 0px 0px 0px 0px; border: 0px solid #ff0000; height: 20px; width:900px; opacity: 0.9; filter: alpha(opacity=90); }
+
+h1
+	{ width:738px; margin:0px; color:#4C1B1B; font:helvetica; font-size:24pt; overflow:hidden; padding:80px 0 0; vertical-align:middle; text-align:right; }
+p	{ margin:0; padding:1.2em; }
+p a:link,
+p a:visited,
+p a:hover,
+p a:active
+	{ font-weight:bold; color:#ccff66; }
+
+ul#navigation-1
+	{ margin:0; padding:0px 0; list-style:none; width:100%; height:21px; border-top:0px solid #aaaaaa; border-bottom:0px solid #aaaaaa; font:normal 8pt verdana, arial, helvetica;}
+ul#navigation-1 li
+	{ margin:0; padding:0; display:block; float:left; position:relative; width:148px; }
+ul#navigation-1 li a:link,
+ul#navigation-1 li a:visited
+	{ padding:4px 0; display:block; text-align:center; text-decoration:none; background:#aaaaaa; color:#ffffff; width:148px; height:13px; }
+ul#navigation-1 li:hover a,
+ul#navigation-1 li a:hover,
+ul#navigation-1 li a:active
+	{ padding:4px 0; display:block; text-align:center; text-decoration:none; background:#cccccc; color:#ffffff; width:146px; height:13px; border-left:0px solid #ffffff; border-right:0px solid #ffffff; }
+	
+ul#navigation-1 li ul.navigation-2
+	{ margin:0; padding:0px 1px 0; list-style:none; display:none; background:#ffffff; width:146px; position:absolute; top:21px; left:-1px; border:0px solid #b9121b; border-top:none; }
+ul#navigation-1 li:hover ul.navigation-2
+	{ display:block; }
+ul#navigation-1 li ul.navigation-2 li
+	{ width:146px; clear:left; width:146px; }
+
+ul#navigation-1 li ul.navigation-2 li a:link,
+ul#navigation-1 li ul.navigation-2 li a:visited
+	{ clear:left; background:#000000; padding:4px 0; width:146px; border:none; border-bottom:0px solid #aaaaaa; position:relative; z-index:1000; }
+ul#navigation-1 li ul.navigation-2 li:hover a,
+ul#navigation-1 li ul.navigation-2 li a:active,
+ul#navigation-1 li ul.navigation-2 li a:hover
+	{ clear:left; background:#000000; padding:4px 0; width:146px; border:none; border-bottom:0px solid #aaaaaa; position:relative; z-index:1000; }
+
+ul#navigation-1 li ul.navigation-2 li ul.navigation-3
+	{ display:none; margin:0; padding:0; list-style:none; position:absolute; left:145px; top:-2px; padding:0px 1px 0 1px; border:0px solid #aaaaaa; border-left:0px solid #b9121b; background:#ffffff; z-index:900; }
+ul#navigation-1 li ul.navigation-2 li:hover ul.navigation-3
+	{ display:block; }
+ul#navigation-1 li ul.navigation-2 li ul.navigation-3 li a:link,
+ul#navigation-1 li ul.navigation-2 li ul.navigation-3 li a:visited
+	{ background:#000000; }
+ul#navigation-1 li ul.navigation-2 li ul.navigation-3 li:hover a,
+ul#navigation-1 li ul.navigation-2 li ul.navigation-3 li a:hover,
+ul#navigation-1 li ul.navigation-2 li ul.navigation-3 li a:active
+	{ background:#000000; }
+ul#navigation-1 li ul.navigation-2 li a span
+	{ position:absolute; top:0; left:132px; font-size:12pt; color:#fe676f; }
+ul#navigation-1 li ul.navigation-2 li:hover a span,
+ul#navigation-1 li ul.navigation-2 li a:hover span
+	{ position:absolute; top:0; left:132px; font-size:12pt; color:#ffffff; }
